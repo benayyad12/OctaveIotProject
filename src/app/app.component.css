@@ -1,0 +1,92 @@
+:host {
+  display: grid;
+  grid-template-rows: auto 1fr; /* One row for the toolbar, one row for the charts */
+  gap: 20px; /* Adjust the spacing between elements */
+}
+
+app-toolbar {
+  grid-row: 1; /* The toolbar occupies the first row */
+}
+
+app-temp {
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Temperature card occupies the second row */
+}
+
+
+app-hum {
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Temperature card occupies the second row */
+}
+app-air {
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Temperature card occupies the second row */
+}
+
+
+
+app-pres {
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Temperature card occupies the second row */
+}
+div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2x2 grid for app-cards */
+  gap: 20px; /* Adjust the spacing between app-cards */
+  grid-row: 3; /* App-cards occupy the third row */
+}
+
+app-card {
+  width: 750px; /* Adjust the width as needed */
+  height: 450px;
+  place-items: center;
+  margin-left: 45px;
+   /* Adjust the height as needed */
+  /* Add any other styling properties as needed */
+}
+
+
+
+app-card1 {
+  width: 750px; /* Adjust the width as needed */
+  height: 450px;
+  place-items: center;
+  margin-left: 45px;
+   /* Adjust the height as needed */
+  /* Add any other styling properties as needed */
+}
+
+
+app-card2 {
+  width: 750px; /* Adjust the width as needed */
+  height: 450px;
+  place-items: center;
+  margin-left: 45px;
+   /* Adjust the height as needed */
+  /* Add any other styling properties as needed */
+}
+
+
+app-card3 {
+  width: 750px; /* Adjust the width as needed */
+  height: 450px;
+  place-items: center;
+  margin-left: 45px;
+   /* Adjust the height as needed */
+  /* Add any other styling properties as needed */
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2x2 grid for app-cards */
+  gap: 20px; /* Adjust the spacing between app-cards */
+  grid-row: 2; /* App-cards occupy the second row */
+  justify-content: space-evenly;/* App-cards occupy the second row */
+}

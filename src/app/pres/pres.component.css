@@ -1,0 +1,25 @@
+.custom-card {
+  width: 300px;
+  height: 250px;
+  margin: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(25, 134, 244, 0.6);
+  
+}
+
+.pressure-content {
+  font-size: 34px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pressure-value {
+  font-size: 2em;
+  font-weight: bold;
+  color: white; /* Adjust the font size as needed */
+}

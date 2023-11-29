@@ -1,0 +1,26 @@
+.custom-card {
+  width: 300px;
+  height: 250px;
+  margin: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(25, 134, 244, 0.6);
+}
+
+.humidity-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 34px;
+
+  
+}
+
+.humidity-value {
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  /* Adjust the font size as needed */
+}

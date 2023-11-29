@@ -1,0 +1,19 @@
+mat-toolbar {
+  /* background-color: orange; */
+
+  /* background-color: rgba(25, 134, 244, 0.78);  */
+  background: linear-gradient(to right, rgba(25, 134, 244, 0.6), rgba(3, 82, 161, 0.9)); /* Gradient from orange to red */
+  
+
+} 
+
+
+
+.custom-toolbar {
+  font-size: 24px;
+  color: white;
+  font-weight: bold; /* Adjust the font size as needed */
+}
+
+
+
