@@ -19,8 +19,9 @@ export class AirService {
   constructor(private http: HttpClient) {}
 
   getAirValues(): Observable<number[]> {
-    return this.http.get<any>(this.apiUrl,{ headers: this.headers }).pipe(
+    return this.http.get<any>(this.apiUrl, { headers: this.headers }).pipe(
       map(response => response.body.map(item => item.elems.environment.iaqValue))
     );
   }
- }
+
+}
