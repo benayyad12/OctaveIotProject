@@ -26,17 +26,17 @@ export class PresComponent {
   //     }
   //   );
   // }
-  ngOnInit() {
-    this.pressureService.getPressureValues().subscribe(
-      (values) => {
-        // Update the most recent pressure value
-        this.mostRecentPressureValue = values.length > 0 ? values[values.length - 1] : null;
-        console.log('Most Recent Pressure value:', this.mostRecentPressureValue);
-      },
-      (error) => {
-        console.error('Error fetching data:', error);
-      }
-    );
-  }
+  // ngOnInit() {
+  //   this.pressureService.getPressureValues().subscribe(
+  //     (values) => {
+  //       // Update the most recent pressure value
+  //       this.mostRecentPressureValue = values.length > 0 ? values[values.length - 1] : null;
+  //       console.log('Most Recent Pressure value:', this.mostRecentPressureValue);
+  //     },
+  //     (error) => {
+  //       console.error('Error fetching data:', error);
+  //     }
+  //   );
+  // }
 
 }

@@ -90,3 +90,7 @@ app-card3 {
   grid-row: 2; /* App-cards occupy the second row */
   justify-content: space-evenly;/* App-cards occupy the second row */
 }
+
+.custom-toolbar {
+  background: linear-gradient(to right, #FF0000, #FFC300, #12E186, rgba(25, 134, 244, 0.6));
+}

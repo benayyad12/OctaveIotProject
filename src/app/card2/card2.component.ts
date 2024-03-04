@@ -17,6 +17,9 @@ export class Card2Component {
         {
           label: 'air quality',
           data: [65, 59, 80, 81, 56, 55, 40],
+          fill: false,
+          borderColor: '#12E186',  // Rouge, modifiez cette valeur pour changer la couleur de la ligne
+          // tension: 0.4
         },
       ],
     };
