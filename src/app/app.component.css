@@ -92,5 +92,5 @@ app-card3 {
 }
 
 .custom-toolbar {
-  background: linear-gradient(to right, #FF0000, #FFC300, #12E186, rgba(25, 134, 244, 0.6));
+  background: linear-gradient(to right top, #f6f8fa, #c6ddf7, #97c3f3, #65a7f0, #128ceb);
 }
